@@ -6,12 +6,10 @@
       :asNavFor="config.asNavFor ? $refs.c2 : null"
     >
       <div
-        v-for="(index) in [1, 2, 3, 4, 5, 6]"
+        v-for="index in [1, 2, 3, 4, 5, 6]"
         :key="index"
       >
-        <h1>
-          {{ index }}
-        </h1>
+        <h1> {{ index }} </h1>
       </div>
     </VueSlickCarousel>
     <VueSlickCarousel
@@ -20,14 +18,10 @@
       :asNavFor="$refs.c1"
     >
       <div
-        v-for="(index) in [1, 2, 3, 4, 5, 6]"
-        :key="`${index}`"
+        v-for="index in [1, 2, 3, 4, 5, 6]"
+        :key="index"
       >
-        <h1>
-          {{
-           index
-          }}
-        </h1>
+        <h1> {{ index }} </h1>
       </div>
     </VueSlickCarousel>
   </div>
