@@ -1,4 +1,6 @@
-# carousel
+This is a minimal reproduction repo to see the vue-click-carousel sync bug.
+
+See App.vue mounted hook
 
 ## Project setup
 ```
@@ -7,7 +9,7 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn serve**
 ```
 
 ### Compiles and minifies for production
